@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quivo comming soon...</title>
+    <title>QUIVO comming soon...</title>
     <style>
         body {
             margin: 0;
@@ -19,7 +19,7 @@
             height: 100%;
             background: url('black-damascus-abstract.jpg') no-repeat center center fixed;
             background-size: cover;
-            animation: backgroundAnimation 20s linear infinite;
+            animation: backgroundAnimation 30s linear infinite;
         }
 
         .content {
@@ -34,30 +34,13 @@
         .glowing-text {
             font-size: 48px;
             text-transform: uppercase;
-            text-shadow: 0 0 10px white, 0 0 20px red, 0 0 30px red;
+            text-shadow: 0 0 10px white, 0 0 10px red, 0 0 20px red;
             animation: textGlow 2s linear infinite;
         }
 
         .small-text {
-            font-size: 24px;
+            font-size: 28px;
             font-family: 'Roboto', sans-serif;
-        }
-
-        .code {
-            font-size: 24px;
-            font-family: 'Roboto', sans-serif;
-        }
-
-        .drop-down-box {
-            position: absolute;
-            top: -100px;
-            left: 50%;
-            transform: translateX(-50%);
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            border-radius: 5px;
-            animation: dropDown 2s forwards;
         }
 
         @keyframes backgroundAnimation {
@@ -70,11 +53,6 @@
             50% { text-shadow: 0 0 20px white, 0 0 40px red, 0 0 60px red; }
             100% { text-shadow: 0 0 10px white, 0 0 20px red, 0 0 30px red; }
         }
-
-        @keyframes dropDown {
-            0% { top: -100px; }
-            100% { top: 50px; }
-        }
     </style>
 </head>
 <body>
@@ -82,9 +60,6 @@
     <div class="content">
         <h1 class="glowing-text">QUIVO DEVELOPMENT</h1>
         <p class="small-text">Discover the amazing features</p>
-        <div class="drop-down-box">
-            NI-CE-V4NT4ESP0RT2-a0AvXB4q1D
-        </div>
     </div>
 </body>
 </html>

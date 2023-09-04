@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QUIVO comming soon...</title>
+    <title>QUIVO coming soon...</title>
     <style>
         body {
             margin: 0;
@@ -43,6 +43,28 @@
             font-family: 'Roboto', sans-serif;
         }
 
+        .button-container {
+            margin-top: 30px;
+        }
+
+        .glow-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .glow-button:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
         @keyframes backgroundAnimation {
             0% { background-position: 0 0; }
             100% { background-position: 100% 100%; }
@@ -60,6 +82,11 @@
     <div class="content">
         <h1 class="glowing-text">QUIVO DEVELOPMENT</h1>
         <p class="small-text">Discover the amazing features</p>
+        <div class="button-container">
+            <a href="#" class="glow-button">
+                <img src="your-button-image.jpg" alt="Discord" style="vertical-align: middle; max-width: 30px; margin-right: 10px;"> Discord
+            </a>
+        </div>
     </div>
 </body>
 </html>
